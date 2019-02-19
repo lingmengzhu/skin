@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-15 21:55:13
+ * @version $Id$
+ */
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body {}
+a {
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+}
+.beautyhead {
+    text-align: center;
+    padding-top: 4px;
+    height: 50px;
+    line-height: 40px;
+    border-bottom: 1px solid #EEE9E9;
+}
+.beauty {
+    height: 1600px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.information {
+    position: relative;
+    width: 84%;
+    height: 1500px;
+    margin: auto;
+    padding-top: 20px;
+}
+.information-left {
+    float: left;
+    width: 70%;
+    height: 1500px;
+    padding: 0px 5px;
+    background-color: white;
+    border: 1px solid #EEE9E9;
+    border-radius: 4px;
+}
+.information-left-head {
+    border-bottom: 1px solid #EEE9E9;
+}
+.information-tuwen {
+    width: 88%;
+    height: 1460px;
+    padding: 5px 10px;
+}
+.information-item {
+    padding: 6px 8px;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px dashed #9C9C9C;
+}
+.item-left {
+    float: left;
+    width: 150px;
+}
+.item-right {
+    height: 184px;
+    float: right;
+    width: 535px;
+}
+div.list {
+    overflow: hidden;
+}
+div.list-info>a {
+    color: black;
+    line-height: 30px;
+
+}
+.information-img {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #9C9C9C;
+}
+.information-img-description {
+    height: 40px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+.information-right {
+    float: right;
+    width: 27%;
+    height: 1500px;
+    background-color: white;
+    border: 1px solid #EEE9E9;
+    border-radius: 4px;
+}

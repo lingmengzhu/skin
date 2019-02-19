@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-18 08:57:00
+ * @version $Id$
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    border: 0px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+.promblemM {
+    width: 1250px;
+    float: right;
+    background-color: #e9ecf3;
+    padding-top: 30px;
+    height: 790px;
+}
+.panel-heading {
+    cursor: pointer;
+}

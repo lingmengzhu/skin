@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-01 10:01:59
+ * @version $Id$
+ */
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body {
+    background-image: url(../img/login-image.jpg);
+}
+div.content {
+    position: relative;
+    margin-top: 90px;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+div.form {
+    margin-top: 40px;
+}
+input {
+    height: 40px;
+    font-size: 24px;
+}
+ul>li {
+    margin-top: 15px;
+}
+span.font {
+    line-height: 20px;
+}
+button {
+    font-size: 24px;
+    width: 340px;
+    height: 40px;
+    background-color: rgb(255, 255, 224);
+    border: 0px;
+}
+input::-moz-placeholder {
+    font-size: 20px;
+    color: rgb(79, 79, 79);
+    opacity: 1;
+    margin-left: 10px;
+}
+a,
+button {
+    cursor: pointer;
+}

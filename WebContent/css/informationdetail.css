@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-16 11:04:52
+ * @version $Id$
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+    color: black;
+}
+.informationdetailhead {
+    padding-top: 4px;
+    height: 50px;
+    border-bottom: 1px solid #EEE9E9;
+    text-align: center;
+}
+.informationdetailcerter {
+    width: 66%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.detail-left {
+    float: left;
+    height: 1500px;
+    width: 70%;
+}
+.detail-head {
+    height: 40px;
+}
+.detail-title {
+    border-top: 2px solid black;
+    text-align: center;
+}
+.headtitle {
+    font-size: 36px;
+    line-height: 100px;
+}
+.titlesource {
+    text-align: center;
+}
+.titlesource>span {
+    color: rgb(130, 130, 130);
+    line-height: 30px;
+    margin: 0px 10px;
+
+}
+div.detail-left>div.detail-head>span {
+    line-height: 40px;
+    margin: 0px 6px;
+    color: rgb(130, 130, 130);
+}
+div.detail-left a {
+    line-height: 40px;
+}
+.abstract {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(245, 245, 245);
+}
+.abstract>p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+.detail-info {
+    height: 1100px;
+}
+.paging {
+    height: 100px;
+    padding: 30px;
+}
+div.paging>div.location {
+    height: 40px;
+    text-align: center;
+}
+div.paging>div.location>a {
+    margin: 0px 10px;
+}
+div.paging>div.location>a.number {
+    font-size: 24px;
+    line-height: 40px;
+}
+a.actived {
+    color: red;
+}
+.detail-right {
+    float: right;
+    height: 1500px;
+    width: 30%;
+    border: 1px solid black;
+    padding-left: 25px;
+}
+.detail-img {
+    width: 100%;
+    height: 480px;
+}
+.img-item1 {
+    height: 235px;
+}
+.img-item2 {
+    margin-top: 10px;
+    height: 235px;
+}
+.news-information {
+    height: 300px;
+}
+.news-information span.EinglishName {
+    font-size: 40px;
+    font-weight: bold;
+}
+.news-information span.ChineseName {
+    font-size: 30px;
+}
+.news-information .information-type {
+    border-top: 1px solid black;
+}
+.news-information .information-type ul {
+    margin-bottom: 10px;
+}
+.news-information .information-type ul li {
+    display: inline-block;
+    width: 36px;
+    text-align: center;
+    margin-right: 2px;
+}
+.news-information .information-type ul li span {
+    display: block;
+    font-size: 10px;
+}
+.information-list ul li {
+    height: 30px;
+}
+.information-list ul li a {
+    color: rgb(54, 54, 54);
+    line-height: 20px;
+}

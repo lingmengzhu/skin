@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-16 20:25:22
+ * @version $Id$
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+ul {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+}
+.skin-login {
+    height: 790px;
+    width: 100%;
+    background-color: #e9ecf3;
+    padding-top: 150px;
+}
+.login-form {
+    margin: 0 auto;
+    width: 500px;
+    height: 284px;
+    border-radius: 12px;
+    background-color: #fff;
+    text-align: center;
+}
+.form-head {
+    font-size: 24px;
+    font-style: italic;
+}
+.form-center {
+    padding-top: 100px;
+    width: 84%;
+    margin: 0 auto;
+}
+.form-item {
+    height: 30px;
+    border-bottom: 1px solid #c2cad8;
+}
+.form-center input {
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    font-size: 14px;
+    border: none;
+    line-height: 30px;
+}
+.form-button button {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 16px;
+    font-style: italic;
+    height: 34px;
+    color: white;
+    line-height: 34px;
+    background: #22b2e1;
+}
